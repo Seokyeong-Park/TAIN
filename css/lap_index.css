@@ -1,5 +1,5 @@
 /* laptop 버전 */
-/* width 1024px ~ 1439px */
+/* width 1023px ~ 1429px */
 @media screen and (max-width : 1429px) and (min-width : 1024px) {
     .box_inner {
         width: 100%;
@@ -24,7 +24,6 @@
         padding: 0 50px;
     }
 
-
     /* main_img_slide content */
     .viewImgList li.imglist0 {
         background: url(../img/main_img_1.jpg) no-repeat;
@@ -44,7 +43,6 @@
 
     /* text_typing content */
     .main_1 {
-        /* height: 600px; */
         height: 100vh;
         line-height: 100px;
     }
@@ -60,24 +58,27 @@
         transform: translate(-50%, -50%);
     }
 
-    /* about_tain */
+    /* team content */
     .about_box {
         padding: 100px 0 100px;
     }
     .about_img, .about_img2, .about_img3, .about_img4 {
         width: 400px;
     }
+    /* album content */
     .album_box_img {
         width: 960px;
     }
 }
 
 /* Desktop 버전 */
-/* width 1500px ~ 1920px */
+/* width 1500px이상 */
 @media screen and (min-width : 1500px) {
     .box_inner {
         width: 100%;
     }
+
+    /* header content */
     .logo img {
         width: 140px;
         height: 60px;
