@@ -109,10 +109,11 @@
         padding-top: 50px;
     }
     .about_img, .about_img2, .about_img3, .about_img4 {
-        width: 350px;
+        width: 300px;
+        height: 250px;
     }
     .about_box_txt1, .sns_box_txt1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     /* album content */
