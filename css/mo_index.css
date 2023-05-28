@@ -1,0 +1,142 @@
+/* /* 모바일버전 */
+/* width 767px 이하 */
+@media screen and (max-width : 767px) {
+    .box_inner {
+        width: 100%;
+    }
+
+    /* header content */
+    .logo {
+        width: 40%;
+    }
+    nav {
+        width: 60%;
+    }
+    .logo img {
+        width: 100px;
+        height: 30px;
+    }
+    .gnb_1 {
+        font-size: 16px;
+    }
+    .gnb_2 {
+        display: none;
+    }
+    .top {
+        height: 50px;
+        padding: 0 20px;
+    }
+
+    /* main_img_slide content */
+    .viewImgList li.imglist0 {
+        background: url(../img/main_img_mo.jpg) no-repeat;
+        height: 400px;
+        background-size: 100% 100%;
+        /* height: 800px; */
+    }
+    .viewImgList li.imglist1 {
+        background: url(../img/main_img2_mo.jpg) no-repeat;
+        height: 400px;
+        background-size: 100% 100%;
+    }
+    .viewImgList li.imglist2 {
+        background: url(../img/main_img3_mo.jpg) no-repeat;
+        height: 400px;
+        background-size: 100% 100%;
+    }
+    .rollbtnArea {
+        bottom: 30px;
+    }
+
+    /* text_typing content */
+    .main_1 {
+        height: 300px;
+        line-height: 40px;
+    }
+    .typeText {
+        color: #4a6397;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'TmonMonsori';
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* profile_tain content */
+    .profile_cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile_img {
+        width: 370px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .profile1, .profile2 {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+    .profile2 {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .hover_me {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 335px;
+        left: 100px;
+        transform: rotate(60deg);
+    }
+
+    .profile_txt {
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* about_tain content */
+    .about_box {
+        padding: 100px 0 50px;
+    }
+    .about_box_img {
+        padding-top: 50px;
+    }
+    .about_img, .about_img2, .about_img3, .about_img4 {
+        width: 350px;
+    }
+    .about_box_txt1, .sns_box_txt1 {
+        font-size: 40px;
+    }
+
+    /* album content */
+    .album_box {
+        padding: 70px 0;
+    }
+    .album_box_txt {
+        padding-bottom: 50px;
+    }
+    .album_box_img {
+        width: 330px;
+    }
+
+    .back {
+        width: 100%;
+        height: 400px;
+        background: url(../img/sky_mo.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    /* 움직이는 텍스트 */
+    .animated-title {
+        font-size: 70px; 
+        height: 70px; 
+        padding: 70px 0 70px 0;
+    }
+}
