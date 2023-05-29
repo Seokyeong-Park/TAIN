@@ -124,7 +124,7 @@ nav {
     content: "|";
     animation: blink 1s step infinite;
     /* color: #a3b4c9; */
-    color: #334e88;
+    color: #4a6397;
     font-weight: lighter;
 }
 @keyframes blink {
@@ -145,7 +145,6 @@ nav {
 /* profile content */
 .profile {
     width: 100%;
-    /* margin-bottom: 30px; */
 }
 .profile_box {
     width: 100%;
@@ -224,6 +223,8 @@ nav {
     color: #fff;
     font-weight: 700;
     background-color: #4a6397;
+    border: 1px solid #4a6397;
+    border-radius: 10px;
 }
 .profile_sub {
     padding-left: 30px;
@@ -243,7 +244,6 @@ nav {
     width: 100%;
     height: 600px;
     background: url(../img/sky.png) no-repeat center fixed;
-    /* background-size: 100% 100%; */
 }
 
 /* team content */
@@ -261,10 +261,7 @@ nav {
 }
 .about_box_txt1 {
     color: #4a6397;
-    /* background: linear-gradient(to top, rgba(100, 100, 100, 0.5), transparent 50%); */
-    /* background: linear-gradient(to top, rgb(241, 241, 37), transparent 50%); */
-    /* background: linear-gradient(to top, #a3b4c9, transparent 70%); */
-    background: linear-gradient(to top, rgb(116, 124, 212), transparent 50%);
+    background: linear-gradient(to top, #d6e4e5, transparent 80%);
     font-size: 60px;
     font-weight: bold;
     font-family: 'TmonMonsori';
@@ -403,6 +400,8 @@ mark {
 }
 .controls span {
     background-color: #4a6397;
+    border: 1px solid #4a6397;
+    border-radius: 50px;
     color: #fff;
     padding: 10px 12px;
     margin: 0 10px;
