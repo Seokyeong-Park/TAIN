@@ -127,7 +127,7 @@
 
     /* team content */
     .about_box {
-        padding: 100px 0 50px;
+        padding: 100px 0 100px;
     }
     .about_box_img {
         padding-top: 50px;
@@ -141,11 +141,11 @@
     }
 
     /* text_slide content */
-    /* .animated-title {
+    .animated-title {
         font-size: 70px; 
         height: 70px; 
         padding: 70px 0 70px 0;
-    } */
+    }
     
     /* album content */
     .album_box {
