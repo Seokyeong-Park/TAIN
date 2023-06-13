@@ -93,16 +93,19 @@
 
     /* main_img_slide content */
     .viewImgList li.imglist0 {
-        background: url(../img/main_img.jpg) no-repeat center;
+        background: url(../img/main_img.jpg) no-repeat;
         height: 800px;
+        background-size: 100% 100%;
     }
     .viewImgList li.imglist1 {
-        background: url(../img/main_img2.jpg) no-repeat center;
+        background: url(../img/main_img2.jpg) no-repeat;
         height: 800px;
+        background-size: 100% 100%;
     }
     .viewImgList li.imglist2 {
-        background: url(../img/main_img3.jpg) no-repeat center;
+        background: url(../img/main_img3.jpg) no-repeat;
         height: 800px;
+        background-size: 100% 100%;
     }
     
     /* text_typing content */
