@@ -93,15 +93,15 @@
 
     /* main_img_slide content */
     .viewImgList li.imglist0 {
-        background: url(../img/main_img.jpg) no-repeat;
+        background: url(../img/main_img.jpg) no-repeat center;
         height: 800px;
     }
     .viewImgList li.imglist1 {
-        background: url(../img/main_img2.jpg) no-repeat;
+        background: url(../img/main_img2.jpg) no-repeat center;
         height: 800px;
     }
     .viewImgList li.imglist2 {
-        background: url(../img/main_img3.jpg) no-repeat;
+        background: url(../img/main_img3.jpg) no-repeat center;
         height: 800px;
     }
     
