@@ -281,7 +281,7 @@ nav {
 .about_box {
     width: 100%;
     position: relative;
-    padding: 150px 0 100px;
+    padding: 150px 0 50px;
 }
 .album_box_txt, .about_box_txt {
     display: flex;
