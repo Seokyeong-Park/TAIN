@@ -58,9 +58,13 @@
         transform: translate(-50%, -50%);
     }
 
+    /* profile content */
+    .profile_box {
+        padding: 100px 0 70px;
+    }
     /* team content */
     .about_box {
-        padding: 100px 0 50px;
+        padding: 100px 0 30px;
     }
     .about_img, .about_img2, .about_img3, .about_img4 {
         width: 400px;
