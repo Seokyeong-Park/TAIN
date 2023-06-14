@@ -62,6 +62,9 @@
     }
 
      /* profile content */
+    .profile_box {
+        padding: 100px 0 70px;
+    }
     .profile_img {
         text-align: center;
     }
@@ -96,7 +99,7 @@
 
     /* team content */
     .about_box {
-        padding: 100px 0 50px;
+        padding: 100px 0 30px;
     }
     .about_box_img {
         padding-top: 50px;

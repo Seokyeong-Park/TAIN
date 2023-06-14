@@ -149,8 +149,7 @@ nav {
 .profile_box {
     width: 100%;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 150px 0 100px;
 }
 .profile_cont {
     display: flex;
@@ -281,7 +280,7 @@ nav {
 .about_box {
     width: 100%;
     position: relative;
-    padding: 150px 0 50px;
+    padding: 120px 0 70px;
 }
 .album_box_txt, .about_box_txt {
     display: flex;
