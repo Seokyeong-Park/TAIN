@@ -51,11 +51,11 @@
     /* text_typing content */
     .main_1 {
         height: 400px;
-        line-height: 40px;
+        line-height: 50px;
     }
     .typeText {
         color: #4a6397;
-        font-size: 28px;
+        font-size: 40px;
         font-weight: bold;
         font-family: 'TmonMonsori';
         text-align: center;
